@@ -11,7 +11,7 @@ class SQL {
     mysqli_query($con, $q);
     $q="SELECT * FROM things";
     return mysqli_query($con, $q);*/
-    return false;
+    return "Hello";
   }
 }
 ?>
